@@ -10,7 +10,7 @@ const Inputs = () => {
   const [pn, setPn] = useState(0.5);
   const [pm, setPm] = useState(0.5);
 
-  const { nQueens2, setNQueens } = useContext(NQueensContext);
+  const { setNQueens } = useContext(NQueensContext);
 
   return (
     <div className="formContainer">
