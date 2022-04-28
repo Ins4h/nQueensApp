@@ -1,0 +1,53 @@
+.formContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.inputContainer {
+  display: flex;
+  width: 300px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.input {
+  width: 80px;
+}
+
+.board {
+  display: flex;
+  width: fit-content;
+  border: 1px black solid;
+}
+
+.boardTile {
+  width: 60px;
+  height: 60px;
+}
+
+.boardTileGray {
+  width: 60px;
+  height: 60px;
+  background-color: gray;
+}
+
+.queenTile {
+  background-image: url("queen.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50px;
+}
+
+.dataContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 400px;
+}
