@@ -10,3 +10,8 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+.plotContainer {
+  display: flex;
+  justify-content: center;
+}

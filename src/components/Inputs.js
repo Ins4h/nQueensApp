@@ -5,7 +5,7 @@ import "./styles.css";
 
 const Inputs = () => {
   const [n, setN] = useState(4);
-  const [pop, setPop] = useState(1);
+  const [pop, setPop] = useState(2);
   const [genMax, setgenMax] = useState(0);
   const [pn, setPn] = useState(0.5);
   const [pm, setPm] = useState(0.5);
@@ -52,7 +52,7 @@ const Inputs = () => {
           <label> Wartość pop: </label>
           <input
             type="number"
-            min={1}
+            min={2}
             value={pop}
             onChange={(e) => setPop(e.target.value)}
             className="input"
@@ -69,7 +69,7 @@ const Inputs = () => {
           />
         </div>
         <div className="inputContainer">
-          <label>Wartość Pn</label>
+          <label>Wartość Pn: </label>
           <input
             type="number"
             value={pn}
@@ -81,7 +81,7 @@ const Inputs = () => {
           />
         </div>
         <div className="inputContainer">
-          <label>Wartość Pm</label>
+          <label>Wartość Pm: </label>
           <input
             type="number"
             value={pm}
